@@ -21,14 +21,14 @@ soup = BeautifulSoup(respuesta.text, features="lxml")
 # ENCONTRAR UN ELEMENTO POR ID
 contenedor_de_preguntas = soup.find(id='questions')
 # ENCONTRAR VARIOS ELEMENTOS POR TAG Y POR CLASE
-lista_de_preguntas = contenedor_de_preguntas.find_all('div',class_="s-post-summary")
+lista_de_preguntas = contenedor_de_preguntas.find_all('div', class_="s-post-summary")
 
 # ITERAR ELEMENTO POR ELEMENTO
 for pregunta in lista_de_preguntas:
     # METODO #1: METODO TRADICIONAL
     texto_pregunta = pregunta.find('h3').text # DENTRO DE CADA ELEMENTO ITERADO ENCONTRAR UN TAG
-    descripcion_pregunta = pregunta.find(class_='s-post-summary--content-excerpt').text # ENCONTRAR POR CLASE
-    descripcion_pregunta = descripcion_pregunta.replace('\n', '').replace('\r', '').strip() # LIMPIEZA DE TEXTO
+    descripcion_pregunta = pregunta.find(class_='s-post-summary--content-excerpt').text  # ENCONTRAR POR CLASE
+    descripcion_pregunta = descripcion_pregunta.replace('\n', '').replace('\r', '').strip()  # LIMPIEZA DE TEXTO
     print(texto_pregunta)
     print(descripcion_pregunta)
 

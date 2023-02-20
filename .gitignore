@@ -3,3 +3,8 @@
 .idea/
 
 venv/
+
+# Archivos
+demo.py
+larepublicaco.py
+resultados.csv
