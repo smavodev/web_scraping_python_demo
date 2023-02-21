@@ -8,7 +8,7 @@ from scrapy.loader import ItemLoader
 
 
 # OBJETIVO:
-#     - Extraer informacion sobre los hoteles de Guayaquil en hhttp://books.toscrape.com/.
+#     - Extraer informacion sobre los hoteles de Guayaquil en https://www.thesun.co.uk.
 #     - Aprender a realizar extracciones verticales utilizando reglas
 #     - Aprender a utilizar MapCompose para realizar limpieza de datos
 
