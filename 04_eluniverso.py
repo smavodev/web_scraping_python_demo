@@ -63,7 +63,7 @@ class ElUniversoSpider(Spider):
         #     yield item.load_item()
 
 # EJECUCION
-# scrapy runspider 4_eluniverso.py -o resultados_eluniverso.csv
+# scrapy runspider 04_eluniverso.py -o resultados_eluniverso.csv
 
 #  CORRIENDO SCRAPY SIN LA TERMINAL
 # process = CrawlerProcess({
