@@ -56,4 +56,4 @@ class Crisol(CrawlSpider):
         yield item.load_item()
 
 # EJECUCION
-# scrapy runspider 06_extracionVertical_Crysol.py -o crisol_scraping_vertical.csv
+# scrapy runspider 06_extraccion_Vertical_CrysolLibros.py -o crisol_scraping_vertical.csv
