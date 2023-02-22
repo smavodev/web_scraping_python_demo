@@ -9,7 +9,7 @@ from scrapy.loader import ItemLoader
 from bs4 import BeautifulSoup
 
 # OBJETIVO:
-#     - Extraer informacion sobre los productos en la pagina de Mercado Libre Mascotas
+#     - Extraer informacion sobre los productos en la pagina de Mercado Libre monitores-accesorios
 #     - Aprender a realizar extracciones verticales y horizontales utilizando reglas
 
 class Articulo(Item):
