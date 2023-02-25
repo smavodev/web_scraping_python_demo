@@ -17,3 +17,6 @@ thesun_scraping_vertical.csv
 mercado_libre_mixto.json
 ign.json
 tripadvisor_users.csv
+
+# Chrome Driver
+chromedriver_win32.zip
